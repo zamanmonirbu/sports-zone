@@ -1,0 +1,51 @@
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.margin-x-lg {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+@media (max-width: 640px) {
+    /* Mobile devices */
+    .margin-x-lg {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+/* Add your custom CSS here */
+/* Add your custom CSS here */
+.slider-item {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+}
+
+ .shadow-hover:hover {
+            transform: scaleX(2);
+        }
+
+
+
+
+
+.slide-container {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    transition: transform 0.3s;
+}
+
+.slide-container.slide {
+    animation: slideRightLeft 2s infinite;
+}
+
